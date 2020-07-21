@@ -28,7 +28,7 @@ a {
 
 .item img {
   width: 100%;
-  height: 400px;
+  height: 340px;
   object-fit: cover;
   vertical-align: middle;
 }
@@ -40,7 +40,7 @@ a {
   color: #2B94B6;
   padding: 4px 0;
   position: absolute;
-  top: 160px;
+  top: 350px;
   left: 0;
 }
 
@@ -59,7 +59,7 @@ a {
   display: flex;
   align-items: center;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .author-info .name {
@@ -83,7 +83,7 @@ a {
 }
 
 .author-info .icon span:nth-child(odd) {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .item-group .author-info img {
@@ -95,6 +95,10 @@ a {
 @media screen and (min-width: 992px) {
   .item img {
     width: 100%;
-    height: 154px;
+    height: 200px;
+  }
+
+  .item .tag {
+    top: 210px;
   }
 }
